@@ -14,6 +14,8 @@ void updateStruct(struct Person *p, int age) {
 int main(int argc, char *argv[])
 {
 
+  // run `make` to excute the makefile and run the c code.
+
   int x = 4; // 4
   // English: integer named x is set to 4
   int * pX = &x; // address of x
