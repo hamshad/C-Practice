@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
   // Necessary need of pointers Example:
   char *heapMemory = malloc(100);
   if (NULL == heapMemory) {
-    printf("malloc failed!\n");
+    perror("malloc failed!\n");
   } 
 
   return 0;

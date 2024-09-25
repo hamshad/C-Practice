@@ -5,7 +5,7 @@ struct Person {
   int age; // size is 4 byte
 };
 
-int int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 
   // 100 Persons
