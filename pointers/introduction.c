@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
 {
 
   // run `make` to excute the makefile and run the c code.
+  // gcc -S example.c -o example.s
+  // run this command to create a machine code file
 
   int x = 4; // 4
   // English: integer named x is set to 4
