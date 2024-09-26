@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// the memory assigned to program/application is divided into 4 sections
+// 1. Heap - dynamic memory which used to used by programmer
+// 2. Stack - function calls and local variables based on LIFO method
+// 3. Static/Global - global variables or static variable with lifetime of whole application
+// 4. Code(Text) - the machine code which is running 
+int static_var = 20; // stores in global memory
+
 int main(int argc, char *argv[])
 {
   // Four horsemen of dynamic memory allocations
